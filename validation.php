@@ -1,13 +1,15 @@
 <?php
- $mobile = "6262626232";
- $mobile = trim($mobile);
- $length = strlen( $mobile);
+$a = '1234467890';
+if(strlen($a) <= 10 && strlen($a)>=10){
 
-   if ($length==10 and is_numeric( $mobile) and  $mobile[0]>=6)
-   {
-     echo "valid mobile";
-   }
-   else {
-     echo "invalid mobile";
-   }
- ?>
+  echo "mobile no is valid";
+}
+else{
+
+  echo "mobile no is invalid";
+}
+
+
+
+?>
+
