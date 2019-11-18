@@ -17,8 +17,7 @@ $a = array(
     'last_name' => 'Doe',
   )
 );
-
-$first_names = array_column($a, 'id', 'first_name');
-print "<pre>";
-print_r($first_names);
+echo "<pre>";
+$last_names = array_column($a, 'id', 'first_name');
+print_r($last_names);
 ?>
