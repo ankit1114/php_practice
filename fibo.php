@@ -4,7 +4,7 @@
   $n =0;
   while ($n < 10) {
     $c = $a + $b;
-    echo $c;
+    echo $c.' ';
     $a = $b;
     $b = $c;
     $n= $n +1;

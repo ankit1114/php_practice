@@ -3,7 +3,6 @@
   $b = count($a);
 
   for ($j=0; $j < $b;  $j++) {
-
     for ($i=0; $i < $b-1; $i++) {
       if ($a[$i] > $a[$i+1]) {
         $temp = $a[$i];
