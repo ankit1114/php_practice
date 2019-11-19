@@ -1,17 +1,15 @@
 <?php
-function primeCheck($number){
-    if ($number == 1)
-    return 0;
-    for ($i = 2; $i <= $number/2; $i++){
-        if ($number % $i == 0)
-            return 0;
-    }
-    return 1;
+  $input=5;
+    for ($i = 2; $i <= $input-1; $i++) {
+      if ($input % $i == 0) {
+      $value= True;
+
+      }
 }
-$number = 31;
-$flag = primeCheck($number);
-if ($flag == 1)
-    echo "Prime";
-else
-    echo "Not Prime"
+if (isset($value) && $value) {
+     echo 'The Number '. $input . ' is not prime';
+}  else {
+   echo 'The Number '. $input . ' is prime';
+   }
+
 ?>
